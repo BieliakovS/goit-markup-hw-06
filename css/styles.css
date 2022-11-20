@@ -721,8 +721,8 @@ ul {
   top: 14px;
   padding: 0;
   right: 14px;
-  width: 24px;
-  height: 24px;
+  width: 30px;
+  height: 30px;
 
   cursor: pointer;
 
@@ -739,8 +739,8 @@ ul {
   transition-timing-function: var(--cub-buz);
 }
 
-.modal__icon:hover,
-.modal__icon:focus {
+.modal-button:hover .modal__icon,
+.modal-button:focus .modal__icon {
   fill: var(--color-accent);
 }
 
